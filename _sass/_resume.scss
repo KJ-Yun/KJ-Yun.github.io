@@ -56,7 +56,7 @@
     .header-title {
       @include sans;
       font-weight: 300;
-      font-size: 1.75rem;
+      font-size: 1.125rem;
       line-height: 2rem;
       letter-spacing: -.05rem;
       text-align: center;
@@ -70,7 +70,7 @@
   }
 
   .executive-summary {
-    @include media_larger_than_mobile { font-size: 0.7rem; }
+    @include media_larger_than_mobile { font-size: 1.125rem; }
   }
 }
 
