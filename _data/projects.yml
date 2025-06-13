@@ -7,7 +7,7 @@
   # url: "#"
   description: Developed a real-time vision-based system to detect and prevent collisions between humans and industrial robots by integrating multi-view 3D pose estimation, robot kinematics, and bounding-box collision detection. The system achieved low latency and high accuracy, enhancing safety in automated manufacturing environments.
   videos:
-    - videos/屏幕录制_2.mp4
+    - src: videos/屏幕录制_2.mp4
     
 - project: Design and Implementation of Binocular Ellipse Detection Algorithm
   role: Independent Developer
@@ -15,14 +15,15 @@
   # url: "#"
   description: Designed and implemented an accurate and efficient algorithm for detecting elliptical features and estimating the 3D pose of round holes using stereo vision. The method combined an optimized EDCircles algorithm with Newton iteration and triangulation, enabling robust industrial object measurement.
   images:
-    - images/1.jpg
+    - src: images/1.jpg
+      width: 50%
 
 - project: Autonomous Navigation for Planetary Rovers Based on Visual Terrain Analysis
   role: Independent Developer
   duration: 2024 &mdash; present
   description: Designed a vision-based autonomous navigation system for planetary rovers operating in harsh, unstructured terrains, integrating multi-sensor traversability analysis, lifelong learning-based terrain mapping, and neural-network-guided path planning. The system enhances rover autonomy and safety by fusing semantic and geometric terrain understanding with efficient global positioning under limited communication.
   images:
-    - images/图片2.jpg
+    - src: images/图片2.jpg
   videos:
-    - videos/2025-05-2320256131925263.mp4
+    - src: videos/2025-05-2320256131925263.mp4
   
