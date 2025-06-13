@@ -113,13 +113,13 @@
 
           {% if project.images %}
             {% for img in project.images %}
-              <img src="{{ img.src }}" alt="Project Image" style="width: {{ img.width | default: '100%' }}; margin-bottom: 10px;" />
+              <img src="{{ img.src }}" alt="Project Image" style="display: block; margin: 2px auto 10px auto; max-width: {{ img.width | default: '100%' }};" />
             {% endfor %}
           {% endif %}
       
           {% if project.videos %}
             {% for vid in project.videos %}
-              <video controls style="width: {{ vid.width | default: '100%' }}; margin-bottom: 10px;">
+              <video controls style="display: block; margin: 2px auto 10px auto; max-width: {{ img.width | default: '100%' }};">
                 <source src="{{ vid.src }}" type="video/mp4">
                 您的浏览器不支持 video 标签。
               </video>
