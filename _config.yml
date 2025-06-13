@@ -10,7 +10,7 @@ sass:
 
 # Resume settings
 resume_avatar:                  "true"
-resume_name:                    "Yun Kaijie"
+resume_name:                    "Kaijie Yun"
 resume_title:                   "MEng @Harbin Institute of Technology | Robotics, Automation & AI"
 
 # used for the contact button in _layouts/resume.html
