@@ -1,15 +1,15 @@
 # Jobs
-# VP of Global Communications
+# Mercedes-Benz AG
 - company: Mercedes-Benz AG
   position: ADAS Perception Engineer
   duration: Jan, 2025 &mdash; May, 2025
   summary: <ul class="resume-item-list"><li>Support to develop MB internal perception and fusion pipeline that utilize data from various sensors, including cameras, lidar, radar and ultrasonic sensors, to enable robust driving and parking</li><li>Research and apply advance 3D obstacle/occupancy perception and fusion algorithms to improve system performance under diverse driving and parking scenarios</li><li>Support to develop perception model training and evaluation pipelines and continuously optimizing them with better model architecture and evaluation metrics</li><li>Check the quality of annotations of point cloud and develop preprocessing functionality</li></ul>
 
-# # Director of Digital Stratgy
-# - company: United Nations Human Rights Council
-#   position: Director of Digital Strategy
-#   duration:  Jun, 2010 &mdash; Sept, 2013
-#   summary: If your stint was shorter, feel free to be brief and just call out the most meaningful points of your role. Be concise, and be meaninful. The person reading just needs enough to want to talk to you more about your experience.
+# Samsung Research China, Beijing
+- company: Samsung R&D Institute China-Beijing
+  position: Robotics Algorithm Engineer
+  duration:  Jun, 2025 &mdash; Aug, 2025
+  summary: <ul class="resume-item-list"><li>Leverage the MultiGripperGrasp dataset to adapt and filter Franka Panda grasp poses for compatibility and deployment on the RB-Y1 robotic platform</li><li>Automate large-scale synthetic data generation in Nvidia Isaac Sim by implementing the transferred grasp poses</li><li>Diagnose and resolve critical simulation instability issues by optimizing stiffness and damping parameters and implementing thresholds to ensure path planning convergence</li><li>Process and convert synthetic datasets into the RLDS format to support the finetuning of VLA models</li></ul>
 
 
 # # Communications Coordinator
