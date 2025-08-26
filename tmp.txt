@@ -1,0 +1,16 @@
+Objective: 
+Build synthetic data generation pipeline by using synthetic grasp annotation and motion planner e.g. cuRobo in Isaac Sim 4.5.0.
+Unseen object grasping, new assets modeling and grasp pose generation
+Familiar with real-to-sim-to-real pipeline，SOTA robot learning methods, VLA models
+
+Plan 
+[July] Papers: MultiGripperGrasp, GraspVLA; Project: MultiGripperGrasp, Genie Sim Project, Isaac Sim env if needed.
+[July] Test and evaluate MultiGripperGrasp released grasp and annotation.
+[Aug, TBD] New assets modeling (e.g. real2sim); test and evaluate foundation models on new objects.
+[Aug-Sep, TBD] Collaboration with VLA finetuning, collect Expert data, IL data, train and test environment, etc.
+[Aug-Sep, TBD] Deploy VLA on Franka, Test and Evaluate on real-world environment.
+
+Deliverables
+Weekly Progress Reports (http://109.105.4.120/books), Demos
+Simulation Platforms with SDG pipeline built-up
+Performance and Evaluation Analysis Report
