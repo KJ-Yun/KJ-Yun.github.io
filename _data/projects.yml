@@ -5,7 +5,7 @@
   role: Independent Developer
   duration: 2023 &mdash; 2024
   # url: "#"
-  description: <ul class="resume-item-list"><li><b>Developed 2D-to-3D human pose detection pipeline</b>: Utilized <b>OpenMMLab's mmpose</b> for 2D joint detection and applied triangulation to reconstruct 3D human poses, enabling precise spatiotemporal alignment with robot kinematics.</li><li><b>Improved inference efficiency for real-time safety monitoring</b>: Deployed the model with <b>mmdeploy</b>, reducing inference latency from <b>250ms to 29ms per frame (7.6x faster)</b>, while maintaining high accuracy in collision risk assessment.</li><li><b>Enhanced safety prediction accuracy</b>: Integrated 3D human poses with robot <b>forward kinematics</b>, applying <b>AABB collision detection</b>, which resulted in a missed detection rate of <b>6.7%</b> in industrial scenarios.</li></ul>
+  description: <ul class="resume-item-list"><li><b>Developed 2D-to-3D human pose detection pipeline</b>':' Utilized <b>OpenMMLab's mmpose</b> for 2D joint detection and applied triangulation to reconstruct 3D human poses, enabling precise spatiotemporal alignment with robot kinematics.</li><li><b>Improved inference efficiency for real-time safety monitoring</b>':' Deployed the model with <b>mmdeploy</b>, reducing inference latency from <b>250ms to 29ms per frame (7.6x faster)</b>, while maintaining high accuracy in collision risk assessment.</li><li><b>Enhanced safety prediction accuracy</b>':' Integrated 3D human poses with robot <b>forward kinematics</b>, applying <b>AABB collision detection</b>, which resulted in a missed detection rate of <b>6.7%</b> in industrial scenarios.</li></ul>'
   videos:
     - src: videos/屏幕录制_2.mp4
     
@@ -13,14 +13,14 @@
   role: Independent Developer
   duration: 2023 &mdash; 2024
   # url: "#"
-  description: <ul class="resume-item-list"><li><b>Enhanced ellipse detection algorithm</b>: Improved the <b>EDCircles method</b> with geometric constraints and adaptive thresholding, reducing false positives and enabling robust detection of industrial hole edges.</li><li><b>Boosted efficiency</b>: Optimizations shortened average detection time by <b>34.4%</b> while preserving accuracy, supporting real-time industrial inspection.</li></ul>
+  description: <ul class="resume-item-list"><li><b>Enhanced ellipse detection algorithm</b>':' Improved the <b>EDCircles method</b> with geometric constraints and adaptive thresholding, reducing false positives and enabling robust detection of industrial hole edges.</li><li><b>Boosted efficiency</b>':' Optimizations shortened average detection time by <b>34.4%</b> while preserving accuracy, supporting real-time industrial inspection.</li></ul>
     - src: images/1.jpg
       width: 50%
 
 - project: Autonomous Navigation for Planetary Rovers Based on Visual Terrain Analysis
   role: Independent Developer
   duration: 2024 &mdash; present
-  description: <ul class="resume-item-list"><li><b>Constructed Mars-like simulation environment</b>: Imported <b>HiRISE DEMs and textures</b> into Gazebo, building photorealistic Martian terrains with full sensor suite (LiDAR, RGB, IMU), generating <b>10k+ multimodal samples</b> for model training and evaluation.</li><li><b>Designed multi-modal traversability prediction model</b>: Encoded RGB imagery with <b>DINOv3</b>, point clouds with <b>PointPillars</b>, and applied <b>FiLM across FPN layers</b> for cross-modal fusion, supervised by <b>IMU-derived continuous cost signals</b>; the model reduced risk prediction error by <b>21.7%</b> compared to geometric baselines.</li><li><b>Integrated with downstream navigation</b>: Extended traversability costmaps into <b>NNPP-based path planning</b>, achieving a <b>2.5x speedup</b> over traditional D* algorithms in dynamic scenarios, and proposed a <b>global localization strategy</b> leveraging local maps and orbital imagery feature matching for robust positioning under GPS-denied conditions.</li></ul>
+  description: <ul class="resume-item-list"><li><b>Constructed Mars-like simulation environment</b>':' Imported <b>HiRISE DEMs and textures</b> into Gazebo, building photorealistic Martian terrains with full sensor suite (LiDAR, RGB, IMU), generating <b>10k+ multimodal samples</b> for model training and evaluation.</li><li><b>Designed multi-modal traversability prediction model</b>':' Encoded RGB imagery with <b>DINOv3</b>, point clouds with <b>PointPillars</b>, and applied <b>FiLM across FPN layers</b> for cross-modal fusion, supervised by <b>IMU-derived continuous cost signals</b>; the model reduced risk prediction error by <b>21.7%</b> compared to geometric baselines.</li><li><b>Integrated with downstream navigation</b>':' Extended traversability costmaps into <b>NNPP-based path planning</b>, achieving a <b>2.5x speedup</b> over traditional D* algorithms in dynamic scenarios, and proposed a <b>global localization strategy</b> leveraging local maps and orbital imagery feature matching for robust positioning under GPS-denied conditions.</li></ul>
   images:
     - src: images/图片2.jpg
   videos:
