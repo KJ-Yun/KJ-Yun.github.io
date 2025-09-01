@@ -1,15 +1,15 @@
 # Jobs
 # Mercedes-Benz AG
-- company: Mercedes-Benz AG
+- company: Mercedes-Benz Group China Ltd.
   position: ADAS Perception Engineer
   duration: Jan, 2025 &mdash; May, 2025
-  summary: <ul class="resume-item-list"><li>Support to develop MB internal perception and fusion pipeline that utilize data from various sensors, including cameras, lidar, radar and ultrasonic sensors, to enable robust driving and parking</li><li>Research and apply advance 3D obstacle/occupancy perception and fusion algorithms to improve system performance under diverse driving and parking scenarios</li><li>Support to develop perception model training and evaluation pipelines and continuously optimizing them with better model architecture and evaluation metrics</li><li>Check the quality of annotations of point cloud and develop preprocessing functionality</li></ul>
+  summary: <ul class="resume-item-list"><li><b>Optimized occupancy prediction model</b>: Fine-tuned the FB-Occ architecture for near-field parking, achieving a <b>19.5% RayIoU improvement</b> over the baseline on internal dataset.</li><li><b>Enhanced training efficiency</b>: Reduced GPU memory usage through <b>activation checkpointing and memory-aware optimizations</b>, enabling stable training on A10G GPUs (24GB) without reducing iteration volume.</li><li><b>Strengthened preprocessing & evaluation</b>: Built a <b>customized data interface</b> to synchronize multi-sensor timestamps and filter corrupted samples, and validated <b>RayIoU</b> as a more robust occupancy evaluation metric than conventional mIoU.</li></ul>
 
 # Samsung Research China, Beijing
-- company: Samsung R&D Institute China-Beijing
+- company: Beijing Samsung Telecomunication R&D Center
   position: Robotics Algorithm Engineer
   duration:  Jun, 2025 &mdash; Aug, 2025
-  summary: <ul class="resume-item-list"><li>Leverage the MultiGripperGrasp dataset to adapt and filter Franka Panda grasp poses for compatibility and deployment on the RB-Y1 robotic platform</li><li>Automate large-scale synthetic data generation in Nvidia Isaac Sim by implementing the transferred grasp poses</li><li>Diagnose and resolve critical simulation instability issues by optimizing stiffness and damping parameters and implementing thresholds to ensure path planning convergence</li><li>Process and convert synthetic datasets into the RLDS format to support the finetuning of VLA models</li></ul>
+  summary: <ul class="resume-item-list"><li><b>Adapted grasp dataset</b>: Customized the MultiGripperGrasp dataset for the RB-Y1 platform, creating <b>3,170 synthetic samples across 345 unique objects</b>, establishing a strong foundation for downstream model training.</li><li><b>Optimized data pipeline</b>: Accelerated synthetic data collection by <b>60%</b> through I/O optimization and pipeline redesign, while tuning stiffness/damping parameters to ensure reliable path planning convergence.</li><li><b>Enhanced grasping performance</b>: Improved grasp success rate in large-scale Isaac Sim experiments from <b>16.94% to 33.24%</b>, and standardized datasets into RLDS format to enable efficient VLA model finetuning.</li></ul>
 
 
 # # Communications Coordinator
