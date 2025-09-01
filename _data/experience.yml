@@ -9,7 +9,7 @@
 - company: Beijing Samsung Telecomunication R&D Center
   position: Robotics Algorithm Engineer
   duration:  Jun, 2025 &mdash; Aug, 2025
-  summary: '<ul class="resume-item-list"><li><b>Adapted grasp dataset</b>: Customized the MultiGripperGrasp dataset for the RB-Y1 platform, creating <b>3,170 synthetic samples across 345 unique objects</b>, establishing a strong foundation for downstream model training.</li><li><b>Optimized data pipeline</b>: Accelerated synthetic data collection by <b>60%</b> through I/O optimization and pipeline redesign, while tuning stiffness/damping parameters to ensure reliable path planning convergence.</li><li><b>Enhanced grasping performance</b>: Improved grasp success rate in large-scale Isaac Sim experiments from <b>16.94% to 33.24%</b>, and standardized datasets into RLDS format to enable efficient VLA model finetuning.</li></ul>''
+  summary: '<ul class="resume-item-list"><li><b>Adapted grasp dataset</b>: Customized the MultiGripperGrasp dataset for the RB-Y1 platform, creating <b>3,170 synthetic samples across 345 unique objects</b>, establishing a strong foundation for downstream model training.</li><li><b>Optimized data pipeline</b>: Accelerated synthetic data collection by <b>60%</b> through I/O optimization and pipeline redesign, while tuning stiffness/damping parameters to ensure reliable path planning convergence.</li><li><b>Enhanced grasping performance</b>: Improved grasp success rate in large-scale Isaac Sim experiments from <b>16.94% to 33.24%</b>, and standardized datasets into RLDS format to enable efficient VLA model finetuning.</li></ul>'
 
 
 # # Communications Coordinator
