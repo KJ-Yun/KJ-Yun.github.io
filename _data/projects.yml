@@ -14,8 +14,9 @@
   duration: 2023 &mdash; 2024
   # url: "#"
   description: <ul class="resume-item-list"><li><b>Enhanced ellipse detection algorithm</b>':' Improved the <b>EDCircles method</b> with geometric constraints and adaptive thresholding, reducing false positives and enabling robust detection of industrial hole edges.</li><li><b>Boosted efficiency</b>':' Optimizations shortened average detection time by <b>34.4%</b> while preserving accuracy, supporting real-time industrial inspection.</li></ul>
+  images:
     - src: images/1.jpg
-      width: 50%
+    - width: 50%
 
 - project: Autonomous Navigation for Planetary Rovers Based on Visual Terrain Analysis
   role: Independent Developer
